@@ -40,7 +40,7 @@ namespace CodeFirstManyToMany
                     db.SaveChanges();
 
                     games = db.Games.ToList();
-                    Console.ForegroundColor = ConsoleColor.Red;
+                    
                     Console.WriteLine("First output\n");
                     Console.ResetColor();
                     foreach (var g in games)
@@ -81,7 +81,7 @@ namespace CodeFirstManyToMany
 
                     games = db.Games.ToList();
 
-                    Console.ForegroundColor = ConsoleColor.Red;
+                    
                     Console.WriteLine("Second output\n");
                     Console.ResetColor();
                     foreach (var g in games)
@@ -126,7 +126,7 @@ namespace CodeFirstManyToMany
 
                     games = db.Games.ToList();
 
-                    Console.ForegroundColor = ConsoleColor.Red;
+                    
                     Console.WriteLine("Third output\n");
                     Console.ResetColor();
                     foreach (var g in games)
